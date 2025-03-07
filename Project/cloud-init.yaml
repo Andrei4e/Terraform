@@ -1,0 +1,11 @@
+datasource:
+  Ec2:
+    strict_id: false
+ssh_pwauth: no
+users:
+- name: user1
+  sudo: 'ALL=(ALL) NOPASSWD:ALL'
+  shell: /bin/bash
+  ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDE0i4y5DvX00vzIuwocNotY3hU1rSOUwVczJdDVPvtdKW206EQta1dy+q7S1JVo8hW6LECIi8muJW1pGBEPdSoXXwGN+2q/5QgnDD5lqsnrANnC/mf4kjCpGeqFqrmaUMwudToQSpfArAHds9ZqNA+OV++nVjIOFzhM95eZWuHtOeCL47QitEUT2WYuLzqAJDgfLNND60co66X3DRsxPpLUGxz6cuuC6SshAL8NQ9inO0ZmWQ2NUfB+1XPpHINVPw3Za7uz8zdKbCU8/Gzi6XQDNX5c+XBY+e7CspkrWWDWfjvaCp2QRaNZO6rTWNOAuFw88P/eU1UCRsm64fiPWMj your_email@example.com
+runcmd: []
